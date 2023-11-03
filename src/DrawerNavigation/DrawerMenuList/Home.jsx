@@ -1,11 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
+import BottomNavigator from "../../BottomNavigation/BottomNavigator";
 
 const Home = () => {
   return (
-    <View>
-      <Text>Home </Text>
-    </View>
+    <>
+        <BottomNavigator/>
+    </>
   );
 };
 
